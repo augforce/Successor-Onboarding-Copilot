@@ -17,5 +17,5 @@ questions for my successor regarding macOS onboarding, Google Workspace security
 
 ## 📁 Files Included
 - /prompt: The specialized system instructions used to control agent behavior.
-- /architecture: Screenshot of my Azure AI Foundry project dashboard.
+- /architecture: Screenshots of my Azure AI Foundry Copilot project.
 - /demo: link to YouTube overview
