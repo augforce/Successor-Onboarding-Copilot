@@ -29,5 +29,5 @@ A critical component of this project is the **"Trust but Verify"** safety layer.
 
 ## 4. Performance & Reliability Metrics
 * **Latency:** < 3.5 seconds (including web-search overhead).
-* **Citation Accuracy:** 100% (The agent correctly distinguishes between "Internal Source" and "Web Source").
+* **Citation Accuracy:** 90% (The agent was mostly accurate distinguishing between "Internal Source" and "Web Source" though it sometimes lacked document citations).
 * **Hallucination Rate:** 0% observed. The agent defaults to the safety disclaimer rather than fabricating company-specific policies.
