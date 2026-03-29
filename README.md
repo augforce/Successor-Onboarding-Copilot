@@ -27,6 +27,9 @@ To ensure the "SuccessorAgent" meets corporate security standards, the architect
 
 - **Data Privacy**: All grounding data remains within the company's Azure tenant, inheriting existing enterprise-grade encryption and compliance boundaries.
 
+## ✅ Reliability & Validation
+The SuccessorBot undergoes rigorous testing to ensure grounding accuracy and minimize hallucinations. I’ve documented my testing methodology, including specific IT support test cases and RAG performance metrics, in the [Validation & Testing Guide] (./TESTING.md).
+
 ## 📈 Cost Optimization & Resource Efficiency
 As this project utilizes a corporate Azure subscription, fiscal responsibility was a primary design requirement.
 
