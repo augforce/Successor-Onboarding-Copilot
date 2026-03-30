@@ -1,0 +1,35 @@
+{
+    "apiVersion": "2023-11-01",
+    "id": "/subscriptions/8eef3b47-7b5b-407e-8f8d-901293c3b7e1/resourceGroups/Successor-Bot-RG/providers/Microsoft.Search/searchServices/augustine-onboard-search",
+    "name": "augustine-onboard-search",
+    "type": "microsoft.search/searchservices",
+    "sku": {
+        "name": "free"
+    },
+    "location": "swedencentral",
+    "tags": {},
+    "properties": {
+        "replicaCount": 1,
+        "partitionCount": 1,
+        "status": "running",
+        "statusDetails": "",
+        "provisioningState": "succeeded",
+        "hostingMode": "default",
+        "publicNetworkAccess": "Enabled",
+        "networkRuleSet": {
+            "ipRules": [],
+            "bypass": "None"
+        },
+        "privateEndpointConnections": [],
+        "sharedPrivateLinkResources": [],
+        "encryptionWithCmk": {
+            "enforcement": "Unspecified",
+            "encryptionComplianceStatus": "Compliant"
+        },
+        "disableLocalAuth": false,
+        "authOptions": {
+            "apiKeyOnly": {}
+        },
+        "semanticSearch": "free"
+    }
+}
