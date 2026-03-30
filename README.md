@@ -15,6 +15,10 @@ An intelligent RAG-based agent built on Microsoft Foundry designed to automate I
 
 ## 🛠️ Technical Implementation
 - **LLM:** GPT-4.1-mini
+- **Parameters** 
+  * **Temperature** 0.15
+  * **Top P** 0.3
+  * **Max TPM** 100K 
 - **RAG Architecture:** Integrated Azure AI Search with a manual Vector Store for document retrieval.
 - **Prompt Engineering:** Designed a system persona to act as a mentor, citing specific KB documentation for every answer. If there is no documentation available for the support question, the agent will search the web for applicable steps/procedures, making sure to remind the requestor that they need to verify the instructions for accuracy and to cross-reference the web instructions with the company policy documenation to ensure best practices.
 
